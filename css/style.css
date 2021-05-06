@@ -651,6 +651,10 @@ h1{
 /* footer */
 /* 画像でもよい？ */
 
+footer{
+  margin-bottom:20px;
+}
+
 footer h2{
   text-align: center;
   font-size:2vw;
@@ -681,6 +685,7 @@ footer h2{
   margin:  0 auto;
   margin-top:10px;
   margin-bottom:20px;
+
 }
 
 .footer-contents_2--1{
@@ -772,6 +777,7 @@ footer h2{
     width: 55vw;
     margin: "";
     margin-top:10px;
+
   }
 
   .footer-contents_3{
@@ -821,13 +827,9 @@ footer h2{
     /* text-align: center; */
     margin: 0 auto;
     margin-top: 10px;
+
   }
-  
-  .footer-contents_9 img{
-    width: 6vw;
-    height: auto;
-  }
-  
+
   .footer-contents_9 p{
     font-size: 4vw;
     /* text-align: center; */
