@@ -17,11 +17,12 @@ body{
   }
 }
 
-.header-container{
-  background: url(../img/header-background.jpg) no-repeat top right  ;
-  background-size: contain;
-  /* width:100vw;
-  height:100vh; */
+header{
+  background: url(../img/header-background2.png) no-repeat top right  ;
+  background-size: cover;
+  /* width:100vw; */
+  height:100vh;
+  width:auto;
 }
 
 .header-contents{
@@ -79,12 +80,17 @@ h1{
   font-size:3vw;
 }
 
-@media screen and (max-width:576px){
+@media screen and (max-width:768px){
+
   .header-container{
     background: url("");
     background-size:"";
     background-color: #0466A4;
   }
+
+}
+
+  @media screen and (max-width:576px){
 
   .header-contents{
     width:100vw;
@@ -141,14 +147,14 @@ h1{
 
 /* problem */
 
-.problem-container{
+.problem{
   background-color: #EBE9E3;
 }
 
-.problem-h2{
+.problem h2{
   font-weight: bold;
   text-align: center;
-  font-size: 4vw;
+  font-size: 2vw;
   padding-top: 104px;
   padding-bottom: 64px;
 }
@@ -164,10 +170,10 @@ h1{
   justify-content: center;
 }
 
-.col-problem{
+/* .col-problem{
   display: flex;
   justify-content: center;
-}
+} */
 
 .problem-contents_1{
   display: flex;
@@ -179,7 +185,7 @@ h1{
 .problem-contents_2{
   border:solid 3px #0466A4;
   background-color: #0466A4;
-  width: 90vw;
+  width: 70vw;
   height:auto;
   margin: 0 auto;
 }
@@ -198,7 +204,7 @@ h1{
     padding-bottom: 0px;
   }
 
-  .problem-h2{
+  .problem h2{
     font-weight: bold;
     text-align: center;
     font-size: 7vw;
@@ -233,17 +239,17 @@ h1{
 
 /* point */
 
-.point-container{
+.point{
   background: url(../img/point-backimage.png) no-repeat center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .point-container h2{
   text-align: center;
-  font-size: 4vw;
+  font-size: 2vw;
   font-weight: bold;
-  padding-top: 34px;
-  padding-bottom: 20px;
+  padding-top: 39px;
+  padding-bottom: 29px;
 }
 
 .point-contents_1{
@@ -258,9 +264,15 @@ h1{
 }
 
 .point-contents_1 h3{
-  font-size: 1.2vw;
+  font-size: 1.5vw;
   padding-top: 8px;
   padding-bottom: 10px;
+}
+
+.point-contents_1 p{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
 }
 
 .point-box{
@@ -268,6 +280,7 @@ h1{
   justify-content: center;
   width: 70vw;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .point-contents_2{
@@ -281,9 +294,15 @@ h1{
 }
 
 .point-contents_2 h3{
-  font-size: 1.2vw;
+  font-size: 1.5vw;
   padding-top: 8px;
   padding-bottom: 10px;
+}
+
+.point-contents_2 p{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
 }
 
 .point-contents_3{
@@ -297,9 +316,15 @@ h1{
 }
 
 .point-contents_3 h3{
-  font-size: 1.2vw;
+  font-size: 1.5vw;
   padding-top: 8px;
   padding-bottom: 10px;
+}
+
+.point-contents_3 p{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
 }
 
 @media screen and (max-width:576px){
@@ -388,7 +413,7 @@ h1{
 
 /* review */
 
-.review-container{
+.review{
   background-color: #0466A4;
   padding-bottom: 64px;
 }
@@ -397,7 +422,7 @@ h1{
   color: #FFFFFF;
   font-weight: bold;
   text-align: center;
-  padding-top: 56px;
+  padding-top: 39px;
   padding-bottom: 29px;
 }
 
@@ -433,14 +458,15 @@ h1{
 
 .teacher{
   background: url(../img/teacher-background.png) no-repeat center;
-  background-size: contain;
+  background-size: cover;
   text-align: center;
 }
 
 .teacher h2{
   font-weight: bold;
   font-size: 2vw;
-  padding-top: 64px;
+  padding-top: 39px;
+  padding-bottom:29px;
 }
 
 .teacher p{
@@ -477,7 +503,8 @@ h1{
 .qa h2{
   font-size: 2vw;
   font-weight: bold;
-  padding-bottom: 44px;
+  padding-bottom: 29px;
+  padding-top: 39px;
 }
 
 .qa-contents{
@@ -492,9 +519,11 @@ h1{
   display: flex;
 }
 
-.qa-contents_1_1 img{
-  width:2.2vw;
-  height:auto;
+.qa-contents img{
+  /* width:2.2vw;
+  height:auto; */
+  width:42px;
+  height:45px;
 }
 
 /* .qa-contents_1_1 h3{
@@ -518,10 +547,10 @@ h1{
   margin-top: 20px;
 }
 
-.qa-contents_1_2 img{
+/* .qa-contents_1_2 img{
   width:2.2vw;
   height: auto;
-}
+} */
 /* .qa-contents_1_2 h3{
   color:#FFFFFF;
   border:solid 3px #990000;
@@ -646,10 +675,16 @@ footer h2{
 }
 
 .footer-contents_2{
+  display: flex;
   border:solid 1px ;
-  width: 55vw;
+  width: 60vw;
   margin:  0 auto;
   margin-top:10px;
+  margin-bottom:20px;
+}
+
+.footer-contents_2--1{
+  flex-basis: 50%;
 }
 
 .footer-contents_3{
@@ -659,11 +694,12 @@ footer h2{
 
 .footer-contents_3_1{
   padding-top: 20px;
+  line-height: 20px;
 }
 
 .footer-contents_4{
   color: #0B41A0;
-  font-size: 3vw;
+  font-size: 2.6vw;
   font-weight: bold;
   padding-left: 12px;
 }
@@ -689,7 +725,7 @@ footer h2{
 }
 
 .footer-contents_8{
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   padding-left: 20px;
 }
 
@@ -698,23 +734,26 @@ footer h2{
 .footer-contents_9{
   border:solid 3px #990000;
   background-color: #990000;
-  width: 30vw;
+  width: 20vw;
+  height:auto;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 10px;
+  flex-basis: 50%;
+  margin:30px 30px;
 }
 
 .footer-contents_9 img{
-  width: 2vw;
-  height: auto;
+  width: 45px;
+  height: 45px;
   padding-right: 10px;
   padding-bottom: 10px;
 }
 
 .footer-contents_9 p{
   color: #FFFFFF;
-  font-size: 1vw;
+  font-size: 1.5vw;
   font-weight: bold;
   /* text-align: center; */
 }
