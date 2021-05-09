@@ -39,7 +39,7 @@ h1{
   padding-bottom: 106px;
 }
 
-.header h2{
+header h2{
   color:#B60014;
   font-weight: bold;
   font-size: 2.1vw;
@@ -57,9 +57,9 @@ h1{
 }
 
 .header-contents_1 p{
-  font-weight: bold;
   font-size: 1.5vw;
   padding-top: 10px;
+  padding-bottom:10px;
 }
 
 .header-contents_2{
@@ -368,6 +368,8 @@ h1{
     text-align: center;
     padding-bottom: 20px;
     order:1;
+    margin-bottom:20px;
+    margin-left:10px;
   }
 
   .point-contents_2 h3{
@@ -389,6 +391,7 @@ h1{
     text-align: center;
     padding-bottom: 20px;
     order:2;
+    margin-right:10px;
   }
 
   .point-contents_3 h3{
@@ -431,7 +434,7 @@ h1{
   padding-bottom: 0px;
 }
   .review h2{
-    font-size: 3.3vw;
+    font-size: 3.2vw;
   }
 
   .review-contents{
@@ -512,6 +515,7 @@ h1{
 .qa-contents img{
   width:42px;
   height:45px;
+  margin-right:20px;
 }
 
 .qa-contents_1_1 p{
@@ -657,19 +661,21 @@ footer h2{
 .footer-contents_3_1{
   padding-top: 20px;
   line-height: 20px;
+  font-size:0.8vw;
 }
 
 .footer-contents_4{
   color: #0B41A0;
   font-size: 2.6vw;
   font-weight: bold;
-  padding-left: 12px;
+  padding-left: 30px;
 }
 
 .footer-contents_5{
   display: flex;
-  padding-top: 5px;
+  /* padding-top: 5px; */
   padding-left: 30px;
+  padding-bottom:30px;
 }
 
 .footer-contents_6{
@@ -681,6 +687,7 @@ footer h2{
 .footer-contents_7{
   text-align: center;
   padding-top: 5px;
+  font-size:1vw;
 }
 
 .footer-contents_8{
@@ -715,14 +722,14 @@ footer h2{
 }
 
 @media screen and (max-width:576px){
-  
+
   footer h2{
-    font-size:3vw;
+    font-size:2vw;
     margin-bottom: 27px;
   }
 
   .footer-contents_1{
-    width: 100vw;
+    width: 70vw;
   }
   .footer-contents_2{
     border:solid 0px ;
@@ -745,6 +752,7 @@ footer h2{
     color: #0B41A0;
     font-size: 5vw;
     padding-left: 10px;
+    padding-right:10px;
   }
 
   .footer-contents_5{
@@ -761,7 +769,6 @@ footer h2{
 
   .footer-contents_7{
     text-align: center;
-    /* align-items: center; */
     padding-top: 3px;
   }
 
@@ -777,10 +784,12 @@ footer h2{
     align-items: center;
     margin: 0 auto;
     margin-top: 10px;
+    padding-left:5px;
   }
 
   .footer-contents_9 p{
     font-size: 4vw;
+    padding-right:10px;
   }
 }
 
