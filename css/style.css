@@ -147,6 +147,7 @@ header h2{
 
 .problem{
   background-color: #EBE9E3;
+  padding-bottom: 65px;
 }
 
 .problem h2{
@@ -155,10 +156,6 @@ header h2{
   font-size: 2vw;
   padding-top: 104px;
   padding-bottom: 64px;
-}
-
-.problem-container{
-  padding-bottom: 65px;
 }
 
 .row-problem{
@@ -191,10 +188,6 @@ header h2{
 }
 
 @media screen and (max-width:576px){
-
-  .problem-container{
-    padding-bottom: 0px;
-  }
 
   .problem h2{
     font-weight: bold;
@@ -234,7 +227,7 @@ header h2{
   background-size: cover;
 }
 
-.point-container h2{
+.point h2{
   text-align: center;
   font-size: 2vw;
   font-weight: bold;
@@ -319,11 +312,7 @@ header h2{
 
 @media screen and (max-width:576px){
 
-  .point-container{
-    background: url("") ;
-  }
-
-  .point-container h2{
+  .point h2{
     text-align: center;
     font-size: 8vw;
     font-weight: bold;
@@ -429,10 +418,6 @@ header h2{
 
 @media screen and (max-width:576px){
 
-.review-container{
-  background-color: #0466A4;
-  padding-bottom: 0px;
-}
   .review h2{
     font-size: 3.2vw;
   }
@@ -489,7 +474,7 @@ header h2{
 
 /* qa */
 
-.qa-container{
+.qa{
   text-align: center;
 }
 
@@ -724,7 +709,7 @@ footer h2{
 @media screen and (max-width:576px){
 
   footer h2{
-    font-size:2vw;
+    font-size:3vw;
     margin-bottom: 27px;
   }
 
